@@ -3,7 +3,8 @@
 
 
 <body>
-    <h1>Sample project for demoing ESP Web Tools</h1>
+    <h1>FPV-MDN Flasher</h1>
+    <h2>Firmware Version: v0.2.4</h2>
 
     <div id="main" style="display: none;">
 
@@ -16,16 +17,21 @@
         <br>
         <span>NOTE: Make sure to close anything using your devices com port (e.g. Serial monitor)</span>
     </div>
+    
     <div id="notSupported" style="display: none;">
         Your browser does not support the Web Serial API. Try Chrome
     </div>
     
 
     <script>
-        if(navigator.serial){
+        if(navigator.serial)
+        {
             document.getElementById("notSupported").style.display = 'none';
             document.getElementById("main").style.display = 'block';
-        } else {
+        }
+            
+        else
+        {
             document.getElementById("notSupported").style.display = 'block';
             document.getElementById("main").style.display = 'none';
         }
