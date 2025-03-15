@@ -1,2 +1,2 @@
 FPV-MDN Web Flasher:
-wolfblitz7.github.io/flash
+https://wolfblitz7.github.io/flash
