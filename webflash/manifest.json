@@ -1,6 +1,6 @@
 {
     "name": "FPV-MDN Firmware",
-    "version": "v0.2.5",
+    "version": "v0.2.6",
     "new_install_prompt_erase": true,
     "builds": [
       {
